@@ -192,10 +192,10 @@ input, select, textarea {
 			-webkit-columns: 10em 3;
 			-ms-columns: 10em 3;
 			columns: 10em 3;
-			-moz-column-gap: 2em;
-			-webkit-column-gap: 2em;
-			-ms-column-gap: 2em;
-			column-gap: 2em;
+			-moz-column-gap: 1em;
+			-webkit-column-gap: 1em;
+			-ms-column-gap: 1em;
+			column-gap: 0.5em;
 			text-align: justify;
 		}
 
