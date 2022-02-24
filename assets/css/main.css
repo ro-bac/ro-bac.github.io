@@ -1,4 +1,5 @@
-@import url(fontawesome-all.min.css);
+@import url("..\fontawesome\css\all.css")
+
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 html, body, div, span, applet, object,
@@ -184,7 +185,7 @@ input, select, textarea {
 			-webkit-column-gap: 2em;
 			-ms-column-gap: 2em;
 			column-gap: 2em;
-			text-align: justify;
+			text-align: center;
 		}
 
 		p.contentthree {
@@ -196,8 +197,19 @@ input, select, textarea {
 			-webkit-column-gap: 1em;
 			-ms-column-gap: 1em;
 			column-gap: 0.8em;
-			text-align: justify;
+			text-align: center;
+			width: 100%;
+
 		}
+		p.child{
+			display: inline-block;
+			width: 30%;
+			height: auto;
+			margin: 0px auto;
+			text-align: left;
+			padding-left: 10px;
+			padding-right: 10px;
+		  }
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
